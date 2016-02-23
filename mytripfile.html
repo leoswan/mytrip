@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Trip</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+	  background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>My Trip</h1>      
+    <p>Paris, Brussels, Amsterdam</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>Pictures</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>BRUSSELS</p>
+      <a href="#BRUSSELS" data-toggle="collapse"><img src="cathedral.JPG" style="width:100%" alt="Image"></a>
+      <div id="BRUSSELS" class="collapse">
+    This is a picture of part of the area known as "The Grand Place" Brussels. The whole are is inclosed by buldings dating back to the late 1600's.
+  </div>
+    </div>
+    <div class="col-sm-4"> 
+      <p>AMSTERDAM</p>
+      <a href="#AMSTERDAM" data-toggle="collapse"><img src="museum.JPG" style="width:100%" alt="Image"></a>
+      <div id="AMSTERDAM" class="collapse">
+    This is a picture of the Rijks museum in Amsterdam. I took it from a garden that was adjacent to the museum. 
+  </div>
+    </div>
+    <div class="col-sm-4"> 
+      <p>PARIS</p>
+      <a href="#PARIS" data-toggle="collapse"><img src="street1.JPG" style="width:100%" alt="Image"></a>
+      <div id="PARIS" class="collapse">
+    This picture is of my family walking down a small street in Paris. There are small cobblestone streets like this all around paris. 
+  </div>
+    </div>
+  </div>
+</div><br>
+
+</body>
+</html>
